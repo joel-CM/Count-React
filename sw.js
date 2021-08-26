@@ -7,7 +7,7 @@ const CACHE_ELEMENTS = [
   "./components/Contador.js",
 ];
 
-const CACHE_NAME = "v2_cacheContadorReact";
+const CACHE_NAME = "v3_cacheContadorReact";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
