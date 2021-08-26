@@ -6,9 +6,7 @@ const Contador = () => {
 
   return (
     <div className="contaienr">
-      <h1 className={contador < 0 ? "menor" : "mayor"}>
-        Contadorrr {contador}
-      </h1>
+      <h1 className={contador < 0 ? "menor" : "mayor"}>Contador {contador}</h1>
       <div className="btns">
         <button onClick={disminuir}>disminuir</button>
         <button onClick={aumentar}>aumentar</button>
