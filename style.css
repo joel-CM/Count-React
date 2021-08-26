@@ -1,0 +1,12 @@
+h1,
+.btns {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.menor {
+  color: tomato;
+}
+.mayor {
+  color: darkseagreen;
+}
